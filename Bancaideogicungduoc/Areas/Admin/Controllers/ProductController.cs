@@ -1,5 +1,6 @@
 ﻿using Bancaideogicungduoc.Reponsitory;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Bancaideogicungduoc.Areas.Admin.Controllers
 {
@@ -12,9 +13,9 @@ namespace Bancaideogicungduoc.Areas.Admin.Controllers
             _dataContext = Context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(await _dataContext.Products.OrderByDescending(p => p.Id).Include(p => p.Category).Include(p => p.Brand).ToListAsync());
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bancaideogicungduoc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79ee2659556aee6e332d476f990edc76482b8c2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+648a76747aeadd85270f95966e807a64894a80e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bancaideogicungduoc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bancaideogicungduoc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
