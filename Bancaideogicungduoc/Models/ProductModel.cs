@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Bancaideogicungduoc.Models
 {
@@ -17,6 +18,10 @@ namespace Bancaideogicungduoc.Models
         public int CategoryId { get; set; }
         public CategoryModel Category { get; set; }
         public BrandModel Brand { get; set; }
-        public string Image {  get; set; }
+        public string Image { get; set; }
+
+        [NotMapped]
+        [FileExtensions]
+        public IFormFile ImageUpload { get; set; }
     }
 }
