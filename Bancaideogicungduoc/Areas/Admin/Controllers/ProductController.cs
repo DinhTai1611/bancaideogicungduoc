@@ -31,6 +31,25 @@ namespace Bancaideogicungduoc.Areas.Admin.Controllers
         {
             ViewBag.Categories = new SelectList(_dataContext.Categories, "Id", "Name", product.CategoryId);
             ViewBag.Brands = new SelectList(_dataContext.Brands, "Id", "Name", product.BrandId);
+
+            if (ModelState.IsValid)
+            {
+                TempData["success"] = "Model ok";
+            }
+            else
+            {
+                TempData["error"] = "Model dang bi loi";
+                List<string> errors = new List<string>();
+                foreach (var value in ModelState.Values)
+                {
+                    foreach (var error in value.Errors)
+                    {
+                        errors.Add(error.ErrorMessage);
+                    }
+                }
+                string errorMess = string.Join("\n", errors);
+                return BadRequest(errorMess);
+            }
             return View(product);
         }
     }

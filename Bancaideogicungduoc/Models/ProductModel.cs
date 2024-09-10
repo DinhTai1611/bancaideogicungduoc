@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Bancaideogicungduoc.Reponsitory.Validation;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Bancaideogicungduoc.Models
@@ -31,7 +32,7 @@ namespace Bancaideogicungduoc.Models
         public string Image { get; set; }
 
         [NotMapped]
-        [FileExtensions]
+        [FileExtension]
         public IFormFile ImageUpload { get; set; }
     }
 }
