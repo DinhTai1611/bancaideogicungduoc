@@ -17,8 +17,8 @@ namespace Bancaideogicungduoc.Models
         public string Description { get; set; }
 
         [Required(ErrorMessage = "Nhập giá sản phẩm")]
-        [Range(0.01, double.MaxValue)]
-        [Column(TypeName = "decimal(8, 2)")]
+        //[Range(0.01, double.MaxValue)]
+        //[Column(TypeName = "decimal(8, 2)")]
         public decimal Price { get; set; }
 
         public BrandModel Brand { get; set; }

@@ -10,9 +10,11 @@ namespace Bancaideogicungduoc.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         private readonly DataContext _dataContext;
-        public ProductController(DataContext Context)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public ProductController(DataContext Context, IWebHostEnvironment webHostEnvironment)
         {
             _dataContext = Context;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public async Task<IActionResult> Index()
@@ -27,6 +29,8 @@ namespace Bancaideogicungduoc.Areas.Admin.Controllers
             ViewBag.Brands = new SelectList(_dataContext.Brands, "Id", "Name");
             return View();
         }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ProductModel product)
         {
             ViewBag.Categories = new SelectList(_dataContext.Categories, "Id", "Name", product.CategoryId);
@@ -34,7 +38,28 @@ namespace Bancaideogicungduoc.Areas.Admin.Controllers
 
             if (ModelState.IsValid)
             {
-                TempData["success"] = "Model ok";
+                product.Slug = product.Name.Replace(" ", "-");
+                var slug = await _dataContext.Products.FirstOrDefaultAsync(p => p.Slug == product.Slug);
+                if (slug != null)
+                {
+                    ModelState.AddModelError("", "Sản phẩm đã tồn tại");
+                    return View(product);
+                }
+                if (product.ImageUpload != null)
+                {
+                    string uploadDirectory = Path.Combine(_webHostEnvironment.WebRootPath, "images");
+                    string imageName = product.ImageUpload.FileName;
+                    string filePath = Path.Combine(uploadDirectory, imageName);
+
+                    FileStream fs = new FileStream(filePath, FileMode.Create);
+                    await product.ImageUpload.CopyToAsync(fs);
+                    fs.Close();
+                    product.Image = imageName;
+                }
+                _dataContext.Add(product);
+                await _dataContext.SaveChangesAsync();
+                TempData["success"] = "Thêm thành công";
+                return RedirectToAction("Index");
             }
             else
             {
