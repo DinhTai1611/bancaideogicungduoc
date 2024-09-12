@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dei1LW8fwvA1PBPxlOPPublZ1JNLVb1iG+6YJ13q8FQ=",
+  "Hash": "xmyGplBuxlq7D2ccVKSMqjRNRYFyqHY3ACKC4ybcwfY=",
   "Source": "Bancaideogicungduoc",
   "BasePath": "_content/Bancaideogicungduoc",
   "Mode": "Default",
@@ -243,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\gallery1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\ip15.jpg",
+      "SourceId": "Bancaideogicungduoc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\",
+      "BasePath": "_content/Bancaideogicungduoc",
+      "RelativePath": "images/ip15.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ip15.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\taoxanh.jpg",

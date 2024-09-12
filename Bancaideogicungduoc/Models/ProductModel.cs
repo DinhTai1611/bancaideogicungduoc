@@ -17,8 +17,8 @@ namespace Bancaideogicungduoc.Models
         public string Description { get; set; }
 
         [Required(ErrorMessage = "Nhập giá sản phẩm")]
-        //[Range(0.01, double.MaxValue)]
-        //[Column(TypeName = "decimal(8, 2)")]
+        [Range(0.01, double.MaxValue)]
+        [Column(TypeName = "decimal(8)")]
         public decimal Price { get; set; }
 
         public BrandModel Brand { get; set; }
@@ -29,7 +29,7 @@ namespace Bancaideogicungduoc.Models
         [Required, Range(1, int.MaxValue, ErrorMessage = "Chọn loại hàng")]
         public int CategoryId { get; set; }
 
-        public string Image { get; set; }
+        public string Image { get; set; } = "noimage.jpg";
 
         [NotMapped]
         [FileExtension]
