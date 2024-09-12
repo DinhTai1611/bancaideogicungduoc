@@ -90,28 +90,48 @@ namespace Bancaideogicungduoc.Areas.Admin.Controllers
         {
             ViewBag.Categories = new SelectList(_dataContext.Categories, "Id", "Name", product.CategoryId);
             ViewBag.Brands = new SelectList(_dataContext.Brands, "Id", "Name", product.BrandId);
+            var existProduct = _dataContext.Products.Find(product.Id);
 
             if (ModelState.IsValid)
             {
                 product.Slug = product.Name.Replace(" ", "-");
-                var slug = await _dataContext.Products.FirstOrDefaultAsync(p => p.Slug == product.Slug);
-                if (slug != null)
-                {
-                    ModelState.AddModelError("", "Sản phẩm đã tồn tại");
-                    return View(product);
-                }
+
                 if (product.ImageUpload != null)
                 {
+                    //Thêm ảnh mới
                     string uploadDirectory = Path.Combine(_webHostEnvironment.WebRootPath, "images");
                     string imageName = product.ImageUpload.FileName;
                     string filePath = Path.Combine(uploadDirectory, imageName);
+                    //Xóa ảnh cũ
+                    string oldFilePath = Path.Combine(uploadDirectory, existProduct.Image);
+                    try
+                    {
+                        if (System.IO.File.Exists(oldFilePath))
+                        {
+                            System.IO.File.Delete(oldFilePath);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        ModelState.AddModelError("", "");
+                    }
 
                     FileStream fs = new FileStream(filePath, FileMode.Create);
                     await product.ImageUpload.CopyToAsync(fs);
                     fs.Close();
-                    product.Image = imageName;
+                    existProduct.Image = imageName;
+
+
                 }
-                _dataContext.Update(product);
+
+                existProduct.Name = product.Name;
+                existProduct.Description = product.Description;
+                existProduct.Price = product.Price;
+                existProduct.CategoryId = product.CategoryId;
+                existProduct.BrandId = product.BrandId;
+
+                _dataContext.Update(existProduct);
+
                 await _dataContext.SaveChangesAsync();
                 TempData["success"] = "Cập nhật thành công";
                 return RedirectToAction("Index");
