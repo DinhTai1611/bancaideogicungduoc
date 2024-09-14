@@ -150,6 +150,7 @@ namespace Bancaideogicungduoc.Areas.Admin.Controllers
                 string errorMess = string.Join("\n", errors);
                 return BadRequest(errorMess);
             }
+            return View(product);
         }
         public async Task<IActionResult> Delete(int Id)
         {
