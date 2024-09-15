@@ -2,7 +2,7 @@
 @{
     ViewData["title"] = "Edit Product";
 }
-<h1>Create Product</h1>
+<h3>Edit Product</h3>
 <div class="col-md-9">
     <form asp-action="Edit" enctype="multipart/form-data">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -49,12 +49,8 @@
     <a asp-action="Index">Back</a>
 </div>
 
-@* @section Scripts {
+@section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
-    <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
-    <script>
-        CKEDITOR.replace("Description");
-    </script>
-} *@
+}

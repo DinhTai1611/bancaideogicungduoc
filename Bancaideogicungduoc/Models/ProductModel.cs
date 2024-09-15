@@ -13,7 +13,7 @@ namespace Bancaideogicungduoc.Models
         public string Name { get; set; }
 
         public string Slug { get; set; }
-
+        [Required(ErrorMessage = "Nhập mô tả sản phẩm")]
         public string Description { get; set; }
 
         [Required(ErrorMessage = "Nhập giá sản phẩm")]
@@ -28,7 +28,6 @@ namespace Bancaideogicungduoc.Models
         public CategoryModel Category { get; set; }
         [Required, Range(1, int.MaxValue, ErrorMessage = "Chọn loại hàng")]
         public int CategoryId { get; set; }
-
         public string Image { get; set; }
 
         [NotMapped]
