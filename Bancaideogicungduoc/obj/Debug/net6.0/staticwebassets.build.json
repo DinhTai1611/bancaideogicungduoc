@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xmyGplBuxlq7D2ccVKSMqjRNRYFyqHY3ACKC4ybcwfY=",
+  "Hash": "Mx6hBCeTWwbaAdI+5rdDP9zYIR9NQ+N4taXIJff11n0=",
   "Source": "Bancaideogicungduoc",
   "BasePath": "_content/Bancaideogicungduoc",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Bancaideogicungduoc.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\Backend\\js\\site.js",
+      "SourceId": "Bancaideogicungduoc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\",
+      "BasePath": "_content/Bancaideogicungduoc",
+      "RelativePath": "Backend/js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Backend\\js\\site.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\css\\animate.css",
@@ -207,12 +226,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\dell7520.jpg",
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\AdidasUltraboost23.jpg",
       "SourceId": "Bancaideogicungduoc",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\",
       "BasePath": "_content/Bancaideogicungduoc",
-      "RelativePath": "images/dell7520.jpg",
+      "RelativePath": "images/AdidasUltraboost23.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\dell7520.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\AdidasUltraboost23.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\gallery1.jpg",
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\Google-Pixel-8.jpg",
       "SourceId": "Bancaideogicungduoc",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\",
       "BasePath": "_content/Bancaideogicungduoc",
-      "RelativePath": "images/gallery1.jpg",
+      "RelativePath": "images/Google-Pixel-8.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,15 +261,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\gallery1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Google-Pixel-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\ip15.jpg",
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\iphone_15_pro.png",
       "SourceId": "Bancaideogicungduoc",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\",
       "BasePath": "_content/Bancaideogicungduoc",
-      "RelativePath": "images/ip15.jpg",
+      "RelativePath": "images/iphone_15_pro.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,15 +280,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\ip15.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\iphone_15_pro.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\taoxanh.jpg",
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\NikeAirForce1.png",
       "SourceId": "Bancaideogicungduoc",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\",
       "BasePath": "_content/Bancaideogicungduoc",
-      "RelativePath": "images/taoxanh.jpg",
+      "RelativePath": "images/NikeAirForce1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,7 +299,45 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\taoxanh.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\NikeAirForce1.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\SamsungGalaxyS23Ultra.jpg",
+      "SourceId": "Bancaideogicungduoc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\",
+      "BasePath": "_content/Bancaideogicungduoc",
+      "RelativePath": "images/SamsungGalaxyS23Ultra.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\SamsungGalaxyS23Ultra.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\win11home.jpg",
+      "SourceId": "Bancaideogicungduoc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\",
+      "BasePath": "_content/Bancaideogicungduoc",
+      "RelativePath": "images/win11home.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\win11home.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\js\\bootstrap.min.js",

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Bancaideogicungduoc.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\Backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\Backend\\js\\site.js"
+    },
+    {
       "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
@@ -37,20 +41,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\dell7520.jpg",
-      "PackagePath": "staticwebassets\\images\\dell7520.jpg"
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\AdidasUltraboost23.jpg",
+      "PackagePath": "staticwebassets\\images\\AdidasUltraboost23.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\gallery1.jpg",
-      "PackagePath": "staticwebassets\\images\\gallery1.jpg"
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\Google-Pixel-8.jpg",
+      "PackagePath": "staticwebassets\\images\\Google-Pixel-8.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\ip15.jpg",
-      "PackagePath": "staticwebassets\\images\\ip15.jpg"
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\NikeAirForce1.png",
+      "PackagePath": "staticwebassets\\images\\NikeAirForce1.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\taoxanh.jpg",
-      "PackagePath": "staticwebassets\\images\\taoxanh.jpg"
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\SamsungGalaxyS23Ultra.jpg",
+      "PackagePath": "staticwebassets\\images\\SamsungGalaxyS23Ultra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\iphone_15_pro.png",
+      "PackagePath": "staticwebassets\\images\\iphone_15_pro.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\images\\win11home.jpg",
+      "PackagePath": "staticwebassets\\images\\win11home.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\OneDrive\\Máy tính\\Bancaideogicungduoc\\Bancaideogicungduoc\\wwwroot\\js\\bootstrap.min.js",
